@@ -46,9 +46,10 @@ h1 {
 h2 {
     font-family: 'Anton', sans-serif;
 }
-
+/*TODO: I will try some flex or d flex properties in here to see if it affects bubbles*/
 .bubbles {
-    align-items: center;
+    /*TODO: Review that I removed the align-items: center to apply properties in html*/
+    /*align-items: center;*/
     font-family: 'Anton', sans-serif;
     padding-bottom: 10px;
     margin: auto;
