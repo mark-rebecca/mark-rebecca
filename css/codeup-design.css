@@ -35,51 +35,16 @@ body {
 Content sectioning
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /*This project requires this Anton regular font for Codeup-design on headers*/
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
-
+h3,{
+    font-family: 'Anton';
 }
 
 h1 {
+    font-family: 'Anton', sans-serif;
 }
 
 h2 {
-}
-
-h3 {
-}
-
-h4 {
-}
-
-h5 {
-}
-
-h6 {
-}
-
-header {
-}
-
-nav {
-}
-
-nav ul, nav ol {
-}
-
-nav li {
-}
-
-nav a {
-}
-
-nav a:visited {
-}
-
-nav a:hover {
-}
-
-nav a:active {
+    font-family: 'Anton', sans-serif;
 }
 
 .bubbles {
@@ -221,24 +186,6 @@ img.green-apple {
     color: black;
     grid-area: 1/1/2/2;
     font-size: 15px;
-}
-
-main {
-}
-
-article {
-}
-
-section {
-}
-
-aside {
-}
-
-footer {
-}
-
-address {
 }
 
 
