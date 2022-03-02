@@ -833,6 +833,10 @@ and (min-width: 1824px) {
     background-size: cover;
 }
 
+.everSoBold {
+
+    font-weight: bold;
+}
 /*.toplogo img {*/
 /*    height: 5%;*/
 /*    width: 5%;*/
