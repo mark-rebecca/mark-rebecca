@@ -126,11 +126,13 @@ img.green-apple {
 }
 
 
-
-.row{
-    font-family: 'Anton', sans-serif;
+.grid{
+    font-family: 'Abel', sans-serif;
 }
 
+.baby-bubbles{
+    font-family: 'Anton', sans-serif;
+}
 .red-small{
     width: 30px;
     height: 30px;
@@ -142,7 +144,8 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bolder;
 
 }
 
@@ -157,7 +160,8 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .green-small{
@@ -171,7 +175,8 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .blue-small {
@@ -185,7 +190,8 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
