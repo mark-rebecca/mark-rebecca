@@ -21,6 +21,7 @@ Root
 html {
 
 }
+
 /*This project requires Abel regular font for all other text other than headers*/
 body {
     font-family: 'Abel', sans-serif;
@@ -84,11 +85,13 @@ nav a:active {
 
 .bubbles {
     display: inline-grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
+    /*adding rounded mx-auto d-block to html*/
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     font-family: 'Anton', sans-serif;
     padding-bottom: 10px;
+
 }
 
 .design {
@@ -111,7 +114,7 @@ nav a:active {
 .develop {
     width: 105px;
     height: 105px;
-    background-color: rgb(224, 141 ,21);
+    background-color: rgb(224, 141, 21);
     border-radius: 50%;
     display: inline-flex;
     text-align: center;
@@ -155,7 +158,7 @@ nav a:active {
     font-size: 20px;
 }
 
-.green-apple{
+.green-apple {
     margin: auto;
     width: 70%;
     border-radius: 1%;
@@ -701,6 +704,43 @@ and (max-width: 1024px) {
     /* Styles */
 }
 
+/**/
+/**/
+/**/
+@media only screen
+and (min-width: 872px)
+and (max-width: 992px ) {
+    #tabletTopNavBar {
+        display: none;
+    }
+}
+
+/*557*/
+/*TODO: See if this can still work*/
+@media only screen
+and (min-width: 320px)
+and (max-width: 557px ) {
+    #mobileFirstTopNavBarr   {
+        background-image: url("/images/logo.png");
+        min-height: 370px;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+}
+
+
+/*min-height:380px;*/
+
+
+
+/*
+/**!*/
+/**/
+/*    Attempting to place limit on navbar breakpoint*/
+
 /* iPads (landscape) ----------- */
 @media only screen
 and (min-width: 768px)
@@ -793,7 +833,7 @@ and (min-width: 1824px) {
 
 /*}*/
 
-/*TODO: USE this Palette and fonts below for codeup-design for Resume CSS*/
+/*TODO: USE this Palette and fonts below for codeup-design site CSS*/
 .colors {
     color: #E6563B;
     color: #DEA03D;
@@ -804,7 +844,7 @@ and (min-width: 1824px) {
 
 }
 
-.font-regular{
+.font-regular {
     font-family: 'Abel', sans-serif;
 }
 
@@ -818,9 +858,9 @@ and (min-width: 1824px) {
     background-size: cover;
 }
 
-.toplogo img {
-    height: 30%;
-    width: 30%;
-    margin-top:5px;
+/*.toplogo img {*/
+/*    height: 5%;*/
+/*    width: 5%;*/
+/*    margin-top:5px;*/
 
-}
+/*}*/
