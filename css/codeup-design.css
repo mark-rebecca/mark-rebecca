@@ -35,7 +35,7 @@ body {
 Content sectioning
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 /*This project requires this Anton regular font for Codeup-design on headers*/
-h3,{
+h3 {
     font-family: 'Anton';
 }
 
