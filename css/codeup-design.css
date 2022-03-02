@@ -24,6 +24,9 @@ html {
 /*This project requires Abel regular font for all other text other than headers*/
 body {
     font-family: 'Abel', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
 
 }
 
@@ -77,6 +80,84 @@ nav a:hover {
 }
 
 nav a:active {
+}
+
+.bubbles {
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 10px;
+}
+
+.design {
+    width: 105px;
+    height: 105px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    color: white;
+    grid-area: 1/1/2/2;
+    margin-left: 5em;
+    font-size: 20px;
+
+}
+
+.develop {
+    width: 105px;
+    height: 105px;
+    background-color: rgb(224, 141 ,21);
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 5px solid white;
+    grid-area: 1/2/2/3;
+    margin-right: 5em;
+    font-size: 20px;
+}
+
+.support {
+    width: 105px;
+    height: 105px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 5px solid white;
+    margin-left: 5em;
+    font-size: 20px;
+}
+
+.host {
+    width: 105px;
+    height: 105px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: inline-flex;
+    /*text-align: center;*/
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 5px solid white;
+    grid-area: 2/2/3/3;
+    margin-right: 5em;
+    font-size: 20px;
+}
+
+.green-apple{
+    margin: auto;
+    width: 70%;
 }
 
 main {
