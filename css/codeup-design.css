@@ -25,12 +25,11 @@ html {
 /*This project requires Abel regular font for all other text other than headers*/
 body {
     font-family: 'Abel', sans-serif;
-    display: flex;
+   /* display: flex;*/
+    /*justify-content: center;*/
     align-items: center;
     background-color: lightgrey;
-
 }
-
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Content sectioning
@@ -84,14 +83,10 @@ nav a:active {
 }
 
 .bubbles {
-    display: inline-grid;
-    /*adding rounded mx-auto d-block to html*/
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     font-family: 'Anton', sans-serif;
     padding-bottom: 10px;
-
+    margin: auto;
 }
 
 .design {
@@ -106,7 +101,7 @@ nav a:active {
     border: 5px solid white;
     color: white;
     grid-area: 1/1/2/2;
-    margin-left: 5em;
+   /* margin-left: 5em;  <<< commented this out and it fixed the responsive issue */
     font-size: 20px;
 
 }
@@ -123,7 +118,7 @@ nav a:active {
     color: white;
     border: 5px solid white;
     grid-area: 1/2/2/3;
-    margin-right: 5em;
+    /*margin-right: 5em;*/
     font-size: 20px;
 }
 
@@ -138,7 +133,7 @@ nav a:active {
     align-items: center;
     color: white;
     border: 5px solid white;
-    margin-left: 5em;
+    /*margin-left: 5em;*/
     font-size: 20px;
 }
 
@@ -154,52 +149,79 @@ nav a:active {
     color: white;
     border: 5px solid white;
     grid-area: 2/2/3/3;
-    margin-right: 5em;
+    /*margin-right: 5em;*/
     font-size: 20px;
 }
 
-.green-apple {
+img.green-apple {
     margin: auto;
-    width: 70%;
+    width: 80%;
     border-radius: 1%;
-    border: 5px dimgrey;
+    border: 10px dimgrey;
 }
-/*
-.little-bubbles{
 
+
+
+.row{
+    font-family: 'Anton', sans-serif;
 }
-.col-4{
-    width: 20px;
-    height: 20px;
-    border-radius: 40%;
-    padding: .5em;
-    margin: 5em
+
+.red-small{
+    width: 30px;
+    height: 30px;
     background-color: #E6563B;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    grid-area: 1/1/2/2;
+    font-size: 15px;
+
 }
 
-.yellow-bubble{
-    width: 20px;
-    height: 20px;
-    border-radius: 40%;
-    padding: .5em;
-    margin: 5em
+.yellow-small{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(224, 141, 21);
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    grid-area: 1/1/2/2;
+    font-size: 15px;
 }
 
-.green-bubble{
-    width: 20px;
-    height: 20px;
-    border-radius: 40%;
-    padding: .5em;
-    margin: 5em
+.green-small{
+    width: 30px;
+    height: 30px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    grid-area: 1/1/2/2;
+    font-size: 15px;
 }
 
-.blue-bubble{
-    width: 20px;
-    height: 20px;
-    border-radius: 40%;
-    padding: .5em;
-    margin: 5em
-}*/
+.blue-small {
+    width: 30px;
+    height: 30px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    grid-area: 1/1/2/2;
+    font-size: 15px;
+}
 
 main {
 }
