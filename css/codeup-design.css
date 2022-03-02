@@ -158,6 +158,7 @@ nav a:active {
 .green-apple{
     margin: auto;
     width: 70%;
+    border: gray;
 }
 
 main {
