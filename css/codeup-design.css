@@ -698,3 +698,10 @@ and (min-width: 1824px) {
     background-image: url("../images/cybertron-person.png");
     background-size: cover;
 }
+
+.toplogo img {
+    height: 30%;
+    width: 30%;
+    margin-top:5px;
+
+}
