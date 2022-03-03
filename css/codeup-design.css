@@ -926,8 +926,11 @@ and (min-width: 1824px) {
 /*align-items: flex-end;*/
 }
 
-.topNavBarText {
+.topNavBar {
+    /*color: #F0F0F0;       */
+    /*background-color: #fff;*/
     color: #EB9D3A;
+    Opacity: 1;
 
 }
 
