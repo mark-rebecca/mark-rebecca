@@ -659,8 +659,24 @@ Media queries
 
 @media (prefers-reduced-motion: reduce) {
 }
-
+/*Added but added cybetron style*/
 @media (prefers-color-scheme: dark) {
+    body {
+        /*color: #b0b0b0;*/
+        /*color: #d669bc;*/
+        /*background-color: #101010;*/
+        /*background-color: #2f3136;*/
+        /*background-primary: #2f3136;*/
+        /*background-primary-alt: #36393f;*/
+        background-color: #2f3136;
+        color: #5dbcd2;
+
+    }
+
+
+
+
+
 }
 
 @media (orientation: portrait) {
@@ -864,16 +880,18 @@ and (min-width: 1824px) {
 /*    font-weight: bold;*/
 /*}*/
 
-#mobileFirstTopNavBarr   {
-    background-image: url("/images/logo.png");
-    max-height: 105px;
-    max-width:  105px;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
+/*TODO: Keep this off*/
+/*#mobileFirstTopNavBar  {*/
+/*    background-image: url("/images/logo.png");*/
+/*    max-height: 105px;*/
+/*    max-width:  105px;*/
+/*    background-position:center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    position: relative;*/
+/*}*/
 
+/*TODO: Keep this ON */
 .logoimage {
     background-image: url("/images/logo.png");
     max-height: 105px;
@@ -881,6 +899,7 @@ and (min-width: 1824px) {
     /*background-position:center;*/
     background-repeat: no-repeat;
     background-size: cover;
+    /*text-color: #EB9D3A;*/
     /*position: relative;*/
     /*rounded mx-auto d-block*/
 }
@@ -894,7 +913,7 @@ and (min-width: 1824px) {
     display: flex;
     flex-direction: column;
     flex:1;
-    /*align-items: flex-start;*/
+    align-items: flex-start;
     
 
 }
@@ -902,10 +921,13 @@ and (min-width: 1824px) {
 .theLast {
     display: flex;
     flex-direction: column;
-/*align-items: flex-end;*/
+align-items: flex-end;
 }
 
+.topNavBarText {
+    color: #EB9D3A;
 
+}
 
 /*.toplogo img {*/
 /*    height: 5%;*/
