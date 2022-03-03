@@ -40,6 +40,10 @@ Content sectioning
 
  */
 
+#blue-logo{
+    margin: auto;
+    padding: 0;
+}
 
 h5 {
     font-family: 'Anton', sans-serif;
@@ -220,6 +224,16 @@ img.green-apple {
 }
 
 
+@media only screen and (min-width: 768px) {
+
+    .hidden-on-desktop {
+        display: none;
+    }
+
+    #navbar-2{
+        display: flex;
+    }
+}
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Text block content
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -229,7 +243,7 @@ p, ol, ul, pre, blockquote, figure, hr, dl {
 }
 
 p {
-    font-family: 'Abel', sans-serif;
+
 }
 
 ol, ul {
