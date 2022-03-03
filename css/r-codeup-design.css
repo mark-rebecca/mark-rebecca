@@ -17,6 +17,7 @@ This project requires this Anton regular font for Codeup-design on headers* (-Ma
 
 
 h5 {
+    display: none;
     font-family: 'Anton', sans-serif;
 }
 
@@ -196,8 +197,6 @@ img.green-apple {
 Text block content
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-p {
-
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -319,18 +318,15 @@ Media queries
         flex-direction: column;
     }
 
-    h3 {
+    h3 h5{
         display: none;
     }
 }
 
+@media only screen and (max-width: 1200px) {
 
-@media only screen and (min-width: 768px) {
-
-    h5 {
-        font-family: 'Anton', sans-serif;
-        font-size: 1.75em; /*28px/16=1.75em -Mark*/
-
+    h5{
+        display: none;
     }
 
     h4 {
