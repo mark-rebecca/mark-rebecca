@@ -885,10 +885,16 @@ and (min-width: 1824px) {
     /*rounded mx-auto d-block*/
 }
 
+.flex-main-container{
+    display:flex;
+
+}
+
 .selected-work {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    flex:1;
+    /*align-items: flex-start;*/
     
 
 }
@@ -896,7 +902,7 @@ and (min-width: 1824px) {
 .theLast {
     display: flex;
     flex-direction: column;
-align-items: flex-end;
+/*align-items: flex-end;*/
 }
 
 
