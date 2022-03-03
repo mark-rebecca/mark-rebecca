@@ -70,9 +70,9 @@ h2 {
     font-size: 3em; /*48px/16=3em -Mark*/
 
 }
-/*TODO: I will try some flex or d flex properties in here to see if it affects bubbles (-Mark)
+/*TODO: I will try some flex or d flex properties in here to see if it affects bubbles (-Mark) Update: Done*/
+
 .bubbles {
-    /*TODO: Review that I removed the align-items: center to apply properties in html (-Mark)
     /*align-items: center;*/
     font-family: 'Anton', sans-serif;
     padding-bottom: 10px;
