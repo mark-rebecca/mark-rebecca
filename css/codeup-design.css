@@ -34,21 +34,45 @@ body {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Content sectioning
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/*This project requires this Anton regular font for Codeup-design on headers*/
-h3 {
-    font-family: 'Anton';
+
+
+/*This project requires this Anton regular font for Codeup-design on headers* (-Mark)
+
+ */
+
+
+h5 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.75em; /*28px/16=1.75em -Mark*/
+
 }
 
+h4 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em; /*32px/16=2em -Mark*/
+
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5em; /*40px/16=2.5em -Mark*/
+
+}
+
+/*TODO: Review change to font-size for this project according to style guide(e.g., Heading 1 is 64px) (-Mark)*/
 h1 {
     font-family: 'Anton', sans-serif;
+    font-size: 4em; /*64px/16=4em -Mark*/
 }
 
 h2 {
     font-family: 'Anton', sans-serif;
+    font-size: 3em; /*48px/16=3em -Mark*/
+
 }
-/*TODO: I will try some flex or d flex properties in here to see if it affects bubbles*/
+/*TODO: I will try some flex or d flex properties in here to see if it affects bubbles (-Mark)
 .bubbles {
-    /*TODO: Review that I removed the align-items: center to apply properties in html*/
+    /*TODO: Review that I removed the align-items: center to apply properties in html (-Mark)
     /*align-items: center;*/
     font-family: 'Anton', sans-serif;
     padding-bottom: 10px;
@@ -153,7 +177,7 @@ img.green-apple {
 .yellow-small{
     width: 30px;
     height: 30px;
-    background-color: rgb(224, 141, 21);
+    background-color: #EB9D3A;
     border-radius: 50%;
     display: inline-flex;
     text-align: center;
@@ -812,7 +836,7 @@ and (min-width: 1824px) {
 /*TODO: USE this Palette and fonts below for codeup-design site CSS*/
 .colors {
     color: #E6563B;
-    color: #DEA03D;
+    color: #EB9D3A;
     color: #7CB06C;
     color: #99ABA9;
     color: #F0F0F0;
