@@ -1,8 +1,7 @@
-
 /*This project requires Abel regular font for all other text other than headers*/
 body {
     font-family: 'Abel', sans-serif;
-   /* display: flex;*/
+    /* display: flex;*/
     /*justify-content: center;*/
     align-items: center;
     background-color: lightgrey;
@@ -17,10 +16,6 @@ Content sectioning
 
  */
 
-#blue-logo{
-    margin: auto;
-    padding: 0;
-}
 
 h5 {
     font-family: 'Anton', sans-serif;
@@ -69,7 +64,7 @@ h2 {
     border: 5px solid white;
     color: white;
     grid-area: 1/1/2/2;
-   /* margin-left: 5em;  <<< commented this out and it fixed the responsive issue */
+    /* margin-left: 5em;  <<< commented this out and it fixed the responsive issue */
     font-size: 20px;
 
 }
@@ -129,11 +124,11 @@ img.green-apple {
 }
 
 
-
-.baby-bubbles{
+.baby-bubbles {
     font-family: 'Anton', sans-serif;
 }
-.red-small{
+
+.red-small {
     width: 18px;
     height: 18px;
     background-color: #E6563B;
@@ -149,7 +144,7 @@ img.green-apple {
 
 }
 
-.yellow-small{
+.yellow-small {
     width: 18px;
     height: 18px;
     background-color: #EB9D3A;
@@ -164,7 +159,7 @@ img.green-apple {
     font-weight: bolder;
 }
 
-.green-small{
+.green-small {
     width: 18px;
     height: 18px;
     background-color: #7CB06C;
@@ -201,10 +196,11 @@ img.green-apple {
         display: none;
     }
 
-    #navbar-2{
+    #navbar-2 {
         display: flex;
     }
 }
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Text block content
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -220,7 +216,7 @@ Media queries
 
 /*Added but added cybetron style*/
 @media (prefers-color-scheme: dark) {
-    body   {
+    body {
         /*color: #b0b0b0;*/
         /*color: #d669bc;*/
         /*background-color: #101010;*/
@@ -280,7 +276,7 @@ Media queries
 .logoimage {
     background-image: url("/images/logo.png");
     max-height: 105px;
-    max-width:  105px;
+    max-width: 105px;
     /*background-position:center;*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,25 +285,26 @@ Media queries
     /*rounded mx-auto d-block*/
 }
 
-.flex-main-container{
-    display:flex;
+.flex-main-container {
+    display: flex;
 
 }
+
 /*flex direction to row, then set flex-wrap: wrap;*/
 .selected-work {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     /*flex-wrap:wrap*/
-/*    flex:1;*/
-/*    align-items: flex-start;*/
-/*    */
+    /*    flex:1;*/
+    /*    align-items: flex-start;*/
+    /*    */
 }
 
 .theLast {
     display: flex;
     flex-direction: column;
     /*flex-wrap:wrap*/
-/*align-items: flex-end;*/
+    /*align-items: flex-end;*/
 }
 
 .topNavBar {
@@ -318,3 +315,37 @@ Media queries
 
 }
 
+@media only screen and (max-width: 425px) {
+
+    #navbar-2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/*
+@media only screen and (min-width: 768px) {
+
+    #navbar-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #blue-circle{
+    justify-content: center}
+}
+
+    a ul li {
+        display: flex;
+        justify-content: space-between;
+
+    }*/
