@@ -717,19 +717,20 @@ and (max-width: 992px ) {
 
 /*557*/
 /*TODO: See if this can still work*/
-@media only screen
-and (min-width: 320px)
-and (max-width: 557px ) {
-    #mobileFirstTopNavBarr   {
-        background-image: url("/images/logo.png");
-        min-height: 370px;
-        background-position:center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
+/*@media only screen*/
+/*and (min-width: 320px)*/
+/*and (max-width: 557px ) {*/
+/*    #mobileFirstTopNavBarr   {*/
+/*        background-image: url("/images/logo.png");*/
+/*        max-height: 105px;*/
+/*        max-width:  105px;*/
+/*        background-position:center;*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: cover;*/
+/*        position: relative;*/
+/*    }*/
 
-}
+/*}*/
 
 
 /*min-height:380px;*/
@@ -858,10 +859,34 @@ and (min-width: 1824px) {
     background-size: cover;
 }
 
-.everSoBold {
+/*.everSoBold {*/
 
-    font-weight: bold;
+/*    font-weight: bold;*/
+/*}*/
+
+#mobileFirstTopNavBarr   {
+    background-image: url("/images/logo.png");
+    max-height: 105px;
+    max-width:  105px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+.logoimage {
+    background-image: url("/images/logo.png");
+    max-height: 105px;
+    max-width:  105px;
+    /*background-position:center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position: relative;*/
+    /*rounded mx-auto d-block*/
+}
+
+
+
 /*.toplogo img {*/
 /*    height: 5%;*/
 /*    width: 5%;*/
