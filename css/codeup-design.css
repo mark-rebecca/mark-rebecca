@@ -885,6 +885,20 @@ and (min-width: 1824px) {
     /*rounded mx-auto d-block*/
 }
 
+.selected-work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+}
+
+.theLast {
+    display: flex;
+    flex-direction: column;
+align-items: flex-end;
+}
+
 
 
 /*.toplogo img {*/
