@@ -151,16 +151,16 @@ img.green-apple {
 }
 
 
-.grid{
+/*.grid{
     font-family: 'Abel', sans-serif;
-}
+}*/
 
 .baby-bubbles{
     font-family: 'Anton', sans-serif;
 }
 .red-small{
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     background-color: #E6563B;
     border-radius: 50%;
     display: inline-flex;
@@ -169,14 +169,14 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 10px;
+    font-weight: bold;
 
 }
 
 .yellow-small{
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     background-color: #EB9D3A;
     border-radius: 50%;
     display: inline-flex;
@@ -185,13 +185,13 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bolder;
 }
 
 .green-small{
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     background-color: #7CB06C;
     border-radius: 50%;
     display: inline-flex;
@@ -200,13 +200,13 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 .blue-small {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     background-color: #00ABA9;
     border-radius: 50%;
     display: inline-flex;
@@ -215,8 +215,8 @@ img.green-apple {
     align-items: center;
     color: black;
     grid-area: 1/1/2/2;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 10px;
+    font-weight: bolder;
 }
 
 
@@ -229,6 +229,7 @@ p, ol, ul, pre, blockquote, figure, hr, dl {
 }
 
 p {
+    font-family: 'Abel', sans-serif;
 }
 
 ol, ul {
