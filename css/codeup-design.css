@@ -910,19 +910,18 @@ and (min-width: 1824px) {
 
 }
 
-.selected-work {
+.selected-work-col {
     display: flex;
     flex-direction: column;
-    flex:1;
-    align-items: flex-start;
-    
-
+/*    flex:1;*/
+/*    align-items: flex-start;*/
+/*    */
 }
 
-.theLast {
+.theLast-col {
     display: flex;
     flex-direction: column;
-align-items: flex-end;
+/*align-items: flex-end;*/
 }
 
 .topNavBarText {
