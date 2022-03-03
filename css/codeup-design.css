@@ -924,22 +924,27 @@ and (min-width: 1824px) {
 
 }
 
-.selected-work-col {
+.selected-work {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap:wrap
 /*    flex:1;*/
 /*    align-items: flex-start;*/
 /*    */
 }
 
-.theLast-col {
+.theLast {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap:wrap
 /*align-items: flex-end;*/
 }
 
-.topNavBarText {
+.topNavBar {
+    /*color: #F0F0F0;       */
+    /*background-color: #fff;*/
     color: #EB9D3A;
+    Opacity: 1;
 
 }
 
