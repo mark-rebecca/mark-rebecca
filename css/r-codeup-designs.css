@@ -1,23 +1,10 @@
-/*This project requires Abel regular font for all other text other than headers*/
 body {
     font-family: 'Abel', sans-serif;
-    /* display: flex;*/
-    /*justify-content: center;*/
     align-items: center;
     background-color: lightgrey;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-Content sectioning
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-
-This project requires this Anton regular font for Codeup-design on headers* (-Mark)
-
-
-
 h5 {
-    display: none;
     font-family: 'Anton', sans-serif;
 }
 
@@ -38,7 +25,6 @@ h2 {
 }
 
 .bubbles {
-    /*align-items: center;*/
     font-family: 'Anton', sans-serif;
     padding-bottom: 10px;
     margin: auto;
@@ -56,7 +42,6 @@ h2 {
     border: 5px solid white;
     color: white;
     grid-area: 1/1/2/2;
-    /* margin-left: 5em;  <<< commented this out and it fixed the responsive issue */
     font-size: 20px;
 
 }
@@ -73,7 +58,6 @@ h2 {
     color: white;
     border: 5px solid white;
     grid-area: 1/2/2/3;
-    /*margin-right: 5em;*/
     font-size: 20px;
 }
 
@@ -88,7 +72,6 @@ h2 {
     align-items: center;
     color: white;
     border: 5px solid white;
-    /*margin-left: 5em;*/
     font-size: 20px;
 }
 
@@ -98,13 +81,11 @@ h2 {
     background-color: #00ABA9;
     border-radius: 50%;
     display: inline-flex;
-    /*text-align: center;*/
     align-items: center;
     justify-content: center;
     color: white;
     border: 5px solid white;
     grid-area: 2/2/3/3;
-    /*margin-right: 5em;*/
     font-size: 20px;
 }
 
@@ -114,7 +95,6 @@ img.green-apple {
     border-radius: 1%;
     border: 10px dimgrey;
 }
-
 
 .baby-bubbles {
     font-family: 'Anton', sans-serif;
@@ -181,98 +161,16 @@ img.green-apple {
     font-weight: bolder;
 }
 
-
-@media only screen and (min-width: 768px) {
-
-    .hidden-on-desktop {
-        display: none;
-    }
-
-    #navbar-2 {
-        display: flex;
-    }
+#navbar-2 {
+    display: flex;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-Text block content
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-}
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-Media queries
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-
-/*Added but added cybetron style*/
-@media (prefers-color-scheme: dark) {
-    body {
-        /*color: #b0b0b0;*/
-        /*color: #d669bc;*/
-        /*background-color: #101010;*/
-        /*background-color: #2f3136;*/
-        /*background-primary: #2f3136;*/
-        /*background-primary-alt: #36393f;*/
-        background-color: #2f3136;
-        color: #5dbcd2;
-    }
-
-}
-
-
-.fancy-header {
-    /*color: blue; !* single line comment *!*/
-    text-decoration: underline;
-    color: #9e8aff;
-    Opacity: 1;
-}
-
-
-.theme-dark {
-    /*--background-primary: #2f3136;*/
-    background-color: #2f3136;
-    color: #5dbcd2;
-    /*--background-primary-alt: #36393f;*/
-}
-
-/*}*/
-
-/*TODO: USE this Palette and fonts below for codeup-design site CSS*/
-.colors {
-    color: #E6563B;
-    color: #EB9D3A;
-    color: #7CB06C;
-    color: #99ABA9;
-    color: #F0F0F0;
-    color: #E6E6E6;
-
-}
-
-.font-regular {
-    font-family: 'Abel', sans-serif;
-}
-
-.font-header {
-    font-family: 'Anton', sans-serif;
-}
-
-
-.jumbotron {
-    background-image: url("../images/cybertron-person.png");
-    background-size: cover;
-}
-
-/*TODO: Keep this ON */
 .logoimage {
     background-image: url("/images/logo.png");
     max-height: 105px;
     max-width: 105px;
-    /*background-position:center;*/
     background-repeat: no-repeat;
     background-size: cover;
-    /*text-color: #EB9D3A;*/
-    /*position: relative;*/
-    /*rounded mx-auto d-block*/
 }
 
 .flex-main-container {
@@ -280,26 +178,19 @@ Media queries
 
 }
 
-/*flex direction to row, then set flex-wrap: wrap;*/
 .selected-work {
     display: flex;
     flex-direction: column;
-    /*flex-wrap:wrap*/
-    /*    flex:1;*/
-    /*    align-items: flex-start;*/
-    /*    */
+
 }
 
 .theLast {
     display: flex;
     flex-direction: column;
-    /*flex-wrap:wrap*/
-    /*align-items: flex-end;*/
+
 }
 
 .topNavBar {
-    /*color: #F0F0F0;       */
-    /*background-color: #fff;*/
     color: #EB9D3A;
     Opacity: 1;
 
@@ -317,16 +208,17 @@ Media queries
         display: flex;
         flex-direction: column;
     }
-
-    h3 h5{
+    h3 {
         display: none;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 768px) {
 
-    h5{
-        display: none;
+    h5 {
+        font-family: 'Anton', sans-serif;
+        font-size: 1.75em; /*28px/16=1.75em -Mark*/
+
     }
 
     h4 {
@@ -338,7 +230,6 @@ Media queries
     h3 {
         font-family: 'Abel', sans-serif;
         font-size: 2.5em; /*40px/16=2.5em -Mark*/
-
     }
 
     h1 {
@@ -350,4 +241,7 @@ Media queries
         font-family: 'Anton', sans-serif;
         font-size: 3em; /*48px/16=3em -Mark*/
     }
+
+    #blue-circle
+
 }
