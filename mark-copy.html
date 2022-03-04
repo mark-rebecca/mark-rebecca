@@ -14,10 +14,10 @@
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <!--   Custom StyleSheet-->
-<!--    <link rel="stylesheet" href="css/codeup-design.css">-->
-<!--    TODO: Remove this line below and turn back on line above (codeup-design prior to production-->
+    <!--    TODO: Turn this on below for production code-->
+    <!--    <link rel="stylesheet" href="css/codeup-design.css">-->
+    <!--    TODO: Remove this line below and turn back on line above (codeup-design prior to production-->
     <link rel="stylesheet" href="css/mark-copy.css">
-
     <!--    Google FONTS API-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!--    FONTS-->
@@ -25,31 +25,66 @@
     <!--    FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
 </head>
+<!--TODO: BRAND NEW MOBILE NAVBAR -MARK-->
+<!--Option 1-->
+<!--<img src="images/logo.png" alt="codeup logo" class="logoimage">-->
+<!--<p>codeup design</p>-->
+<!--<ul class ="nav-links" >-->
+<!--    <li><a href="#">SERVICES</a></li>-->
+<!--    <li><a href="#">WORK</a></li>-->
+<!--    <li><a href="#">BLOG</a></li>-->
+<!--    <li><a href="#">CONTACT</a></li>-->
+<!--</ul>-->
+
+<!--Option 2-->
+<!--TODO: Get this to look mobile friendly add a background image just for fun-->
+<!--TODO: Complete: Background image in external CSS-->
+<div class="row d-flex justify-content-center d-sm-none d-block">
+    <nav class="navbar navbar-light bg-light ">
+        <div class="container-fluid mobileNavBar">
+            <div class="row d-flex">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" width="105px" height="105px" class="d-inline-block ">
+                    <!--                codeup design-->
+                </a>
+                <h3 class=" tex-center">codeup design</h3>
+                <ul class="col-10 row justify-content-around"style="list-style:none">
+                    <li class="col-3  text-center"><a href="#">SERVICES</a></li>
+                    <li class="col-3  text-center"><a href="#">WORK</a></li>
+                    <li class="col-3  text-center"><a href="#">BLOG</a></li>
+                    <li class="col-3  text-center"><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
 
 <body>
 <section>
-    <nav class="navbar navbar-dark bg-dark" id="navbar-2">
-        <a class="navbar-brand" href="#">
-            <img src="images/logo-cropped.png" alt="" width="105" height="105" id="blue-circle">
-            codeup design
-        </a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page">SERVICES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">WORK</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">BLOG</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">CONTACT</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="row d-none d-sm-block">
+        <nav class="navbar navbar-dark bg-dark" id="navbar-2">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-cropped.png" alt="" width="105" height="105" id="blue-circle">
+                codeup design
+            </a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </section>
-
+<br>
 <br>
 <section>
     <h3 class="text-center">codeup design</h3>
@@ -69,6 +104,7 @@
     </div>
 </section>
 
+<hr>
 <br>
 
 <!--Parent = Anakin Skywalker-->

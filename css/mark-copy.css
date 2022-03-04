@@ -18,6 +18,11 @@ Content sectioning
 
 /*This project requires this Anton regular font for Codeup-design on headers* (-Mark)*/
 
+hr {
+    width:80%;
+    margin:0 auto;
+    color: rgba(235, 157, 58, 0.95);
+}
 
 
 h5 {
@@ -276,7 +281,6 @@ Media queries
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    
     /*text-color: #EB9D3A;*/
     /*position: relative;*/
     /*rounded mx-auto d-block*/
@@ -309,6 +313,18 @@ Media queries
     /*background-color: #fff;*/
     color: #EB9D3A;
     Opacity: 1;
+
+}
+
+.mobileNavBar {
+    /* display: flex;*/
+    /*justify-content: center;*/
+    align-items: center;
+    background-color: lightgrey;
+    background-image: url("../images/cybertron-person.png");
+    /*background-size: 150px;*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
 
 }
 
