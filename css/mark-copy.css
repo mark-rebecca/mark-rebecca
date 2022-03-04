@@ -12,7 +12,7 @@ body {
 }
 
 /*Amazing trick I found on stack overflow to see elements easily Like a mockup wizard!*/
-* { outline: 1px solid red; }
+/** { outline: 1px solid red; }*/
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
