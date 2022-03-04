@@ -5,6 +5,10 @@ body {
     /*justify-content: center;*/
     align-items: center;
     background-color: lightgrey;
+    background-image: url("../images/cybertron-person.png");
+    /*background-size: 150px;*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -271,6 +275,8 @@ Media queries
     /*background-position:center;*/
     background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    
     /*text-color: #EB9D3A;*/
     /*position: relative;*/
     /*rounded mx-auto d-block*/
