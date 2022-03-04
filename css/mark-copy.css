@@ -329,6 +329,7 @@ Media queries
     /*background-size: 150px;*/
     /*background-repeat: no-repeat;*/
     background-size: cover;
+    font-size: 0.5em;
 
 }
 
